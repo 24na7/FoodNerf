@@ -37,7 +37,7 @@ public class FoodBlockerEvents {
         ItemStack stack = event.getItemStack();
         if (isFoodBlocked(stack)) {
             event.getToolTip().add(
-                    Component.literal("message.foodnerf.id1").withStyle(ChatFormatting.GRAY)
+                    Component.translatable("message.foodnerf.id1").withStyle(ChatFormatting.GRAY)
             );
         }
     }

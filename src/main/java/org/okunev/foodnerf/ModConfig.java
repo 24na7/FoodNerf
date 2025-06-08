@@ -12,7 +12,7 @@ public class ModConfig {
         public final ForgeConfigSpec.ConfigValue<List<? extends String>> blockedFoods;
 
         public Common(ForgeConfigSpec.Builder builder) {
-            builder.comment("List of prohibited items (by ID)").push("foodblocker");
+            builder.comment("List of prohibited items (by ID)").push("foodnerf");
 
             blockedFoods = builder
                     .comment("Examples: 'minecraft:apple', 'minecraft:raw_beef'")

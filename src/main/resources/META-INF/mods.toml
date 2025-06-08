@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+[[mods]]
+modId="foodblocker"
+version="1.0"
+displayName="foodblocker"
+authors="24na7 , Okunev , Krolik"
+description="The mod is made for the server. It prohibits eating certain foods and can be used in various RP projects where half of the food might be disabled. Alternatively, it's useful for interesting post-apocalyptic builds where you need to block certain types of food."
+displayURL = "https://modrinth.com/user/24na7"
+
+[[dependencies.foodblocker]]
+modId="forge"
+mandatory=true
+versionRange="47.3.0"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.foodblocker]]
+modId="minecraft"
+mandatory=true
+versionRange="1.20.1"
+ordering="NONE"
+side="BOTH"
